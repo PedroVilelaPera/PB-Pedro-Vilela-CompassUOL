@@ -23,3 +23,4 @@ Com o script devidamente criado, agendei a execução pelo root, pois assim o sc
 Diariamente a partir da terça-feira passei a abrir o terminal todos os dias em torno de 15:25 apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida. Com a certeza de que tudo foi corretamente executado, partia para a criação de um novo arquivo .csv, já que outra exigência do desafio era a necessidade de criamos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro ecommerce.
 
 ## 5. Consolidação dos Relatórios
+Após os quatro dias de execução o desafio nos pede qe 
