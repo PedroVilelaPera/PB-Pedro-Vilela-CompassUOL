@@ -1,9 +1,12 @@
+# Desafio da Sprint
+Na primeira Sprint, recebemos o desafio de desenvolver um script que processasse e gerasse relatórios de venda com comandos shell do Linux a partir de uma base de dados. Este documento descreve todas as etapas que passei até chegar ao resultado desejado.
+
 ## 1. Preparando o espaço.
-O desafio pedia que utilizassemos uma distribuição linux para realizar todo o desafio, então o primeiro passo era arrumar uma forma de rodar o **Linux** na minha máquina.
+O desafio pedia que utilizássemos uma distribuição **Linux** para realizar todo o desafio, então o primeiro passo era arrumar uma forma de rodar o Linux na minha máquina.
 
-Optei por utilizar um sistema dentro do próprio windows que permite rodar uma distribuição Linux, o **WSL (Windows Subsystem for Linux)**, pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
+Optei por utilizar um sistema no próprio Windows que permite rodar uma distribuição Linux, o **WSL (Windows Subsystem for Linux)**, pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
 
-Utilizando o WSL criei um diretório dentro do meu usuário chamado ```ecommerce```. 
+Utilizando o WSL criei um diretório dentro do meu usuário chamado ```ecommerce```.
 
 ![Criando diretório ecommerce](../evidencias/criando_diretório_ecommerce.png)
 
@@ -21,23 +24,23 @@ Esse script precisava realizar algumas ações que consistiam em:
   2. Data da primeira e última venda do arquivo ```backup-dados-<YYYYMMDD>.csv```.
   3. Quantidade de produtos diferentes do arquivo ```backup-dados-<YYYYMMDD>.csv```.
   4. 10 primeiras linhas do arquivo ```backup-dados-<YYYYMMDD>.csv```.
-- Compactar o arquivo de backup em um zip
-- Excluir tanto o ```backup-dados-<YYYYMMDD>.csv``` do backup, tanto a copia do ```dados_de_vendas.csv``` que está dentro da pasta ```vendas```.
+- Compactar o arquivo de backup em um zip.
+- Excluir tanto o ```backup-dados-<YYYYMMDD>.csv``` do backup, quanto a cópia do ```dados_de_vendas.csv``` que está dentro da pasta ```vendas```.
 
 #### Script processamento_de_vendas
 ![Criando script "processamento_de_vendas"](../evidencias/script_processamento.png)
 
 ## 3. Agendando Script
-O desafio nos pede que o script seja executado automaticamente por **4 dias** as exatas **15:27**.
-Para isso utilizei o crontab, um sistema de agendamento de tarefas do linux.
-Com o script devidamente criado, agendei a execução pelo usuário **root** (administrador), pois assim o script é executado com os **privilégios de administrador**, evitando qualquer problema de execução que poderia ser gerado pela falta dessas permissões.
+O desafio nos pede que o script seja executado automaticamente por **4 dias**, às exatas **15:27**.
+Para isso, utilizei o crontab, um sistema de agendamento de tarefas do Linux.
+Com o script devidamente criado, agendei a execução pelo usuário **root**(administrador), pois assim o script é executado com os **privilégios de administrador**, evitando qualquer problema de execução que poderia ser gerado pela falta dessas permissões.
 
 ![Adicionando tarefa](../evidencias/adicionando_tarefa.png)
 
 ## 4. Execução do Script
-Diariamente a partir da terça-feira passei a abrir o terminal todos os dias em torno de 15:25 apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida. 
+Diariamente, a partir da terça-feira, passei a abrir o terminal todos os dias em torno de 15:25, apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida.
 
-Com a certeza de que tudo foi corretamente executado, parti para a criação de um novo arquivo ```.csv```, já que outra exigência do desafio era a necessidade de criamos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro ecommerce.
+Com a certeza de que tudo foi corretamente executado, parti para a criação de um novo arquivo ```.csv```, já que outra exigência do desafio era a necessidade de criarmos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro e-commerce.
 
 #### Primeiro dia de execução:
 ![Primeiro dia de execução do scripr "processamento_de_vendas"](../evidencias/1.primeira_execução.png)
@@ -53,7 +56,7 @@ Com a certeza de que tudo foi corretamente executado, parti para a criação de 
 
 
 ## 5. Consolidação dos Relatórios
-Após os quatro dias de execução, o desafio nos pede que a partir de um script chamado ```consolidador_de_processamento_de_vendas.sh```, juntemos todos os relatórios gerados dentro do diretório ```backup``` em um único arquivo chamado ```relatorio_final```.
+Depois dos quatro dias de execução, o desafio nos pede que a partir de um script chamado ```consolidador_de_processamento_de_vendas.sh```, juntemos todos os relatórios gerados dentro do diretório ```backup``` em um único arquivo chamado ```relatorio_final```.
 Então criei o script de forma bem simples graças ao **wildcard** ou **"*"**, que me permitiu inserir o relatório dentro do arquivo ```relatório_final.txt``` mesmo com datas diferentes.
 
 #### Script consolidador_de_processamento_de_vendas
