@@ -36,16 +36,16 @@ Com o script devidamente criado, agendei a execução pelo **root**, pois assim 
 ## 4. Execução do Script
 Diariamente a partir da terça-feira passei a abrir o terminal todos os dias em torno de 15:25 apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida. Com a certeza de que tudo foi corretamente executado, parti para a criação de um novo arquivo ```.csv```, já que outra exigência do desafio era a necessidade de criamos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro ecommerce.
 
-### Primeiro dia.
+#### Primeiro dia.
 ![Adicionando tarefa](../evidencias/1.primeira_execução.png)
 
-### Segundo dia.
+#### Segundo dia.
 ![Adicionando tarefa](../evidencias/2.segunda_execução.png)
 
-### Terceiro dia.
+#### Terceiro dia.
 ![Adicionando tarefa](../evidencias/3.terceira_execução.png)
 
-### Quarta dia.
+#### Quarto dia.
 ![Adicionando tarefa](../evidencias/4.quarta_execução.png)
 
 
