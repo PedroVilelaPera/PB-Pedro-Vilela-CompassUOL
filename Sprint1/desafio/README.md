@@ -37,21 +37,23 @@ Com o script devidamente criado, agendei a execução pelo **root**, pois assim 
 Diariamente a partir da terça-feira passei a abrir o terminal todos os dias em torno de 15:25 apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida. Com a certeza de que tudo foi corretamente executado, parti para a criação de um novo arquivo ```.csv```, já que outra exigência do desafio era a necessidade de criamos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro ecommerce.
 
 #### Primeiro dia de execução:
-![Adicionando tarefa](../evidencias/1.primeira_execução.png)
+![Primeiro dia de execução do scripr "processamento_de_vendas"](../evidencias/1.primeira_execução.png)
 
 #### Segundo dia de execução:
-![Adicionando tarefa](../evidencias/2.segunda_execução.png)
+![Segundo dia de execução do scripr "processamento_de_vendas"](../evidencias/2.segunda_execução.png)
 
 #### Terceiro dia de execução:
-![Adicionando tarefa](../evidencias/3.terceira_execução.png)
+![Terceiro dia de execução do scripr "processamento_de_vendas"](../evidencias/3.terceira_execução.png)
 
 #### Quarto dia de execução:
-![Adicionando tarefa](../evidencias/4.quarta_execução.png)
+![Quarto dia de execução do scripr "processamento_de_vendas"](../evidencias/4.quarta_execução.png)
 
 
 ## 5. Consolidação dos Relatórios
 Após os quatro dias de execução, o desafio nos pede que a partir de um script chamado ```consolidador_de_processamento_de_vendas```, juntemos todos os relatórios gerados dentro do diretório ```backup``` em um único arquivo chamado ```relatorio_final```.
 Então criei o script de forma bem simples graças ao **wildcard** ou **"*"**, que me permitiu inserir o relatório dentro do arquivo ```relatório_final.txt``` mesmo com datas diferentes.
+
+![Juntando os relatórios](../evidencias/consolidando_relatórios.png)
 
 ## . Problemas Enfrentados
 Durante a minha caminhada para montar o script principal...[talvez]
