@@ -1,0 +1,29 @@
+Data de Execução:
+2024/10/02 15:27
+
+
+Data primeiro registro:
+05/01/2024
+
+
+Data último registro:
+05/05/2024
+
+
+Quant. itens diferentes vendidos:
+15
+
+
+Dez primeiras linhas do backup-dados-20241002
+id,produto,quantidade,preço,data
+12,Mouse Razer,7,290.90,05/01/2024
+14,Teclado Mecânico,5,299.00,10/01/2024
+25,Monitor 4K,3,1250.00,15/01/2024
+47,Webcam Full HD,4,250.00,22/01/2024
+2,Fone de Ouvido,9,150.00,29/01/2024
+11,Mousepad RGB,6,79.90,02/02/2024
+58,SSD 1TB,8,450.00,10/02/2024
+26,Gabinete Gamer,2,550.00,20/02/2024
+48,Placa de Vídeo,5,1800.00,01/03/2024
+
+

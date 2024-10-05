@@ -1,0 +1,29 @@
+Data de Execução:
+2024/10/03 15:27
+
+
+Data primeiro registro:
+03/01/2024
+
+
+Data último registro:
+01/04/2024
+
+
+Quant. itens diferentes vendidos:
+15
+
+
+Dez primeiras linhas do backup-dados-20241003
+id,produto,quantidade,preço,data
+5,Até que Nada Mais Importe,8,39.90,03/01/2024
+28,Bíblia,7,29.90,09/01/2024
+10,O Diário Anne Frank,10,44.90,14/01/2024
+32,O Pequeno Príncipe,12,24.90,20/01/2024
+9,A Divina Comédia,3,89.90,25/01/2024
+55,Flora e Unisses,2,59.90,01/02/2024
+14,Engenharia de Software: Uma Abordagem Profissional,4,49.90,07/02/2024
+49,Harry Potter,11,34.90,12/02/2024
+7,Confie em Mim,6,99.90,18/02/2024
+
+
