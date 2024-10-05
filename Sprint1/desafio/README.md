@@ -15,7 +15,7 @@ Após a criação do diretório, criei o script ```processamento_de_vendas.sh```
 Esse script precisava realizar algumas ações que consistiam em:
 - Criar um diretório ```vendas``` com um subdiretório ```backup```.
 - Criar uma cópia do arquivo de dados para esses dois diretórios.
-- Modificar o nome do arquivo dentro do diretório ```backup``` para ```backup-dados-``` mais a data de execução no formato ```YYYYMMDD```.
+- Modificar o nome do arquivo ```.csv``` dentro do diretório ```backup``` para ```backup-dados-``` mais a data de execução no formato ```YYYYMMDD```.
 - Criar um arquivo chamado ```relatorio.txt``` que contenha:
   1. Data e horário de execução.
   2. Data da primeira e última venda do arquivo ```backup-dados-<YYYYMMDD>.csv```.
