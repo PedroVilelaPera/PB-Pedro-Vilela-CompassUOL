@@ -5,6 +5,8 @@ Então com o arquivo baixado, optei por utilizar um sistema dentro do próprio w
 
 Utilizando o WSL criei um diretório dentro do meu usuário chamado "ecommerce" e passei o arquivo "dados_de_venda.csv" para dentro dele 
 
+![Criando repositório "ecommerce"](evidencias/criando_diretorio_ecommerce);
+
 ## 2. Script
 Após a criação do diretório, criei o script utilizando o nano, um editor de texto nativo do Linux.
 Esse scrpit precisava realizar algumas ações que consistiam em:
