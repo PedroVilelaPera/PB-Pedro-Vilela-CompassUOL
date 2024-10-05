@@ -30,7 +30,7 @@ Esse script precisava realizar algumas ações que consistiam em:
 ## 3. Agendando Script
 O desafio nos pede que o script seja executado automaticamente por **4 dias** as exatas **15:27**.
 Para isso utilizei o crontab, um sistema de agendamento de tarefas do linux.
-Com o script devidamente criado, agendei a execução pelo **root**, pois assim o script é executado com os **privilégios de administrador**, evitando qualquer problema de execução que poderia ser gerado pela falta dessas permissões.
+Com o script devidamente criado, agendei a execução pelo usuário **root** (administrador), pois assim o script é executado com os **privilégios de administrador**, evitando qualquer problema de execução que poderia ser gerado pela falta dessas permissões.
 
 ![Adicionando tarefa](../evidencias/adicionando_tarefa.png)
 
