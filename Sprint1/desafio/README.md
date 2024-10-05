@@ -5,7 +5,7 @@ Optei por utilizar um sistema dentro do próprio windows que permite rodar uma d
 
 Utilizando o WSL criei um diretório dentro do meu usuário chamado ```ecommerce```. 
 
-![Criando repositório "ecommerce"](Sprint1/evidencias/criando_diretório_ecommerce.png);
+![Criando repositório "ecommerce"](Sprint1/evidencias/criando_diretório_ecommerce.png)
 
 E movi o arquivo ```dados_de_vendas.csv```, que conté a nossa base de dados inicial, para dentro do diretório.
 
