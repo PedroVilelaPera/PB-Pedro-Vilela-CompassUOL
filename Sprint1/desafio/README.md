@@ -1,5 +1,7 @@
 ## 1. Preparando o espaço.
-O desafio pedia que utilizassemos uma distribuição linux para realizar todo o desafio, então o primeiro passo era arrumar uma forma de rodar o Linux na minha máquina. Optei por utilizar um sistema dentro do próprio windows que permite rodar uma distribuição Linux, o WSL (Windows Subsystem for Linux), pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
+O desafio pedia que utilizassemos uma distribuição linux para realizar todo o desafio, então o primeiro passo era arrumar uma forma de rodar o Linux na minha máquina.
+
+Optei por utilizar um sistema dentro do próprio windows que permite rodar uma distribuição Linux, o WSL (Windows Subsystem for Linux), pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
 
 Utilizando o WSL criei um diretório dentro do meu usuário chamado ```ecommerce```. 
 
