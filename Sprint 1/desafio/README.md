@@ -1,25 +1,25 @@
 ## 1. Preparando o espaço.
-Antes de quaquer coisa, o primeiro passo foi baixar o arquivo "dados_de_venda.csv".
-O desafio pedia que utilizassemos uma distribuição linux para realizar todo o desafio.
-Então com o arquivo baixado, optei por utilizar um sistema dentro do próprio windows que permite rodar uma distribuição Linux, o WSL (Windows Subsystem for Linux), pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
+O desafio pedia que utilizassemos uma distribuição linux para realizar todo o desafio, então o primeiro passo era arrumar uma forma de rodar o Linux na minha máquina. Optei por utilizar um sistema dentro do próprio windows que permite rodar uma distribuição Linux, o WSL (Windows Subsystem for Linux), pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
 
-Utilizando o WSL criei um diretório dentro do meu usuário chamado "ecommerce" e passei o arquivo "dados_de_venda.csv" para dentro dele 
+Utilizando o WSL criei um diretório dentro do meu usuário chamado ```ecommerce```. 
 
-![Criando repositório "ecommerce"](evidencias/criando_diretorio_ecommerce);
+![Criando repositório "ecommerce"](Sprint1/evidencias/criando_diretório_ecommerce.png);
+
+E movi o arquivo ```dados_de_vendas.csv```, que conté a nossa base de dados inicial, para dentro do diretório.
 
 ## 2. Script
 Após a criação do diretório, criei o script utilizando o nano, um editor de texto nativo do Linux.
 Esse scrpit precisava realizar algumas ações que consistiam em:
-- Criar um diretório "vendas" com um subdiretório "backup".
+- Criar um diretório ```vendas``` com um subdiretório ```backup```.
 - Criar uma cópia do arquivo de dados para esses dois diretórios.
-- Modificar o nome do arquivo dentro do diretório "backup" para "backup-dados-" mais a data de execução no formato "YYYYMMDD".
-- Criar um arquivo chamado relatorio.txt que contenha:
+- Modificar o nome do arquivo dentro do diretório ```backup``` para ```backup-dados-``` mais a data de execução no formato ```YYYYMMDD```.
+- Criar um arquivo chamado ```relatorio.txt``` que contenha:
   1. Data e horário de execução.
-  2. Data da primeira e última venda do arquivo backup-dados-<YYYYMMDD>.csv.
-  3. Quantidade de produtos diferentes do arquivo backup-dados-<YYYYMMDD>.csv.
-  4. 10 primeiras linhas do arquivo backup-dados-<YYYYMMDD>.csv.
+  2. Data da primeira e última venda do arquivo ```backup-dados-<YYYYMMDD>.csv```.
+  3. Quantidade de produtos diferentes do arquivo ```backup-dados-<YYYYMMDD>.csv```.
+  4. 10 primeiras linhas do arquivo ```backup-dados-<YYYYMMDD>.csv```.
 - Compactar o arquivo de backup em um zip
-- Excluir tanto o .csv do backup, tanto o que está dentro da pasta vendas.
+- Excluir tanto o ```backup-dados-<YYYYMMDD>.csv``` do backup, tanto a copia do ```dados_de_vendas.csv``` que está dentro da pasta ```vendas```.
   
 ## 3. Agendando Script
 O desafio nos pede que o script seja executado automaticamente por 4 dias as exatas 15:27.
