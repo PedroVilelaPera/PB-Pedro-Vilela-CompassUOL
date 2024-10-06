@@ -1,4 +1,4 @@
-# Desafio da Sprint
+# Desafio da Sprint 1
 Na primeira Sprint, recebemos o desafio de desenvolver um script que processasse e gerasse relatórios de venda com comandos shell do Linux a partir de uma base de dados. Este documento descreve todas as etapas que passei até chegar ao resultado desejado.
 
 ## 1. Preparando o espaço.
