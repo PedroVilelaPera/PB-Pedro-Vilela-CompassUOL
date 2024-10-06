@@ -1,10 +1,10 @@
 <img src="https://avatars.githubusercontent.com/u/152188605?v=4" width="250">
 
-# Olá! Me chamo Pedro!
+# Olá! Me chamo Pedro.
 
 ## Sobre Mim.
-Meu nome é **Pedro Vilela Pereira** tenho 18 anos, sou paulista mas atualmente moro em Jupi, PE.
-Estou cursando o segundo perído de Análise e Desenvolvimento de Sistemas no Instituto Federal de Pernambuco - Campus Garanhuns.
+Meu nome é **Pedro Vilela Pereira**, tenho 18 anos, sou paulista, mas atualmente moro em Jupi, PE.
+Estou cursando o segundo perído de Análise e Desenvolvimento de Sistemas no Instituto Federal de Pernambuco, no campus de Garanhuns.
 
 - 👨‍💻**Principais Conhecimentos**: HTML5, CSS3, Python, JavaScript.
 - 📚**Experiência**: Trabalhar na CompassUOL está sendo minha primeira experiência!
