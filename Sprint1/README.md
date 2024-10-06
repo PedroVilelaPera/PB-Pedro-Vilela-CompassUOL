@@ -1,5 +1,8 @@
 # SPRINT 1
 
+## Exercícios
+#### Não tivemos exercícios nessa Sprint.
+
 ## Desafio
 O desafio dessa sprint consistiu em usar comandos do shell do Linux para realizar um script que processasse e gerasse relatórios automaticamente por 4 dias seguidos a partir de uma base de dados.
 
@@ -18,7 +21,7 @@ Criei esse script que tem o trabalho de realizar a criação da estrutura de pas
 [![Criando script "processamento_de_vendas"](./evidencias/script_processamento.png)](./evidencias)
 
 ### Agendando a execução do script.
-No desafio era descrito que precisavamos agendar a execução para que rodasse por **quartro dias** as exatas **15h27**, para isso utilizei a ferramenta **crontab** por meio do usuário **root** ou **super usuário** para que esse agendamento fosse corretamente realizado sem problemas com permissões.
+No desafio era descrito que precisávamos agendar a execução para que rodasse por **quatro** dias às exatas **15h27**, para isso utilizei a ferramenta crontab por meio do usuário **root** ou **super-usuário** para que esse agendamento fosse corretamente realizado sem problemas com permissões.
 
 ![Adicionando tarefa](./evidencias/adicionando_tarefa.png)
 
@@ -26,3 +29,11 @@ No desafio era descrito que precisavamos agendar a execução para que rodasse p
 Com a tarefa devidamente agendada, aguardei o momento da execução por todos os quatro dias, por volta de 15h25, para assim ter a certeza de que tudo seria devidamente realizado. Abaixo temos a primeira execução do script feita com sucesso! [Clique aqui](./desafio/README.md) para ver todas as execuções.
 
 [![Primeiro dia de execução do scripr "processamento_de_vendas"](./evidencias/1.primeira_execução.png)](./evidencias)
+
+### Script ```consolidador_de_processamento_de_vendas.sh```.
+Após ter todos os quatro relatórios em mãos, o desafio nos pede que os juntemos em um único arquivo ```relatorio_final.txt``` através de um script chamado ```consolidador_de_processamento_de_vendas.sh``` que está na imagem abaixo.
+
+[![Juntando os relatórios](./evidencias/script_consolidador.png)](./evidencias)
+
+## Certificados
+#### Não tivemos certificados para essa Sprint.
