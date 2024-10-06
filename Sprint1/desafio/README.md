@@ -31,7 +31,7 @@ O script em questão precisava realizar algumas ações, que consistiam em:
 ![Criando script "processamento_de_vendas"](../evidencias/script_processamento.png)
 
 ## 3. Agendando Script
-O desafio nos pede que o script seja executado automaticamente por **4 dias**, às exatas **15:27**.
+O desafio nos pede que o script seja executado automaticamente por **quatro dias**, às exatas **15:27**.
 Para isso, utilizei o crontab, um sistema de agendamento de tarefas do Linux.
 
 Com o script devidamente criado, agendei a execução pelo usuário **root**(administrador), pois assim o script é executado com os **privilégios de administrador**, evitando qualquer problema de execução que poderia ser gerado pela falta dessas permissões.
