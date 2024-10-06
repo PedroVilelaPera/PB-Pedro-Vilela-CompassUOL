@@ -43,16 +43,16 @@ Diariamente, a partir da terça-feira, passei a abrir o terminal todos os dias e
 
 Com a certeza de que tudo foi corretamente executado, parti para a criação de um novo arquivo ```.csv```, já que outra exigência do desafio era a necessidade de criarmos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro e-commerce.
 
-#### Primeiro dia de execução:
+### Primeiro dia de execução:
 ![Primeiro dia de execução do scripr "processamento_de_vendas"](../evidencias/1.primeira_execução.png)
 
-#### Segundo dia de execução:
+### Segundo dia de execução:
 ![Segundo dia de execução do scripr "processamento_de_vendas"](../evidencias/2.segunda_execução.png)
 
-#### Terceiro dia de execução:
+### Terceiro dia de execução:
 ![Terceiro dia de execução do scripr "processamento_de_vendas"](../evidencias/3.terceira_execução.png)
 
-#### Quarto dia de execução:
+### Quarto dia de execução:
 ![Quarto dia de execução do scripr "processamento_de_vendas"](../evidencias/4.quarta_execução.png)
 
 
