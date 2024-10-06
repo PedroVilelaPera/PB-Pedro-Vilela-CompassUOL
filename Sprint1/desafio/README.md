@@ -6,7 +6,7 @@ O desafio pedia que utilizássemos uma distribuição **Linux** para realizar to
 
 Optei por utilizar um sistema no próprio Windows que permite rodar uma distribuição Linux, o **WSL (Windows Subsystem for Linux)**, pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
 
-Utilizando o WSL criei o primeiro diretório dentro do meu usuário chamado ```ecommerce```. Ele seria o principal que iria abrigar todo os outros arquivos e diretórios.
+Utilizando o WSL criei o primeiro diretório dentro do meu usuário chamado ```ecommerce```. Ele seria a pasta principal que iria abrigar todos os outros arquivos e diretórios.
 
 ![Criando diretório ecommerce](../evidencias/criando_diretório_ecommerce.png)
 
