@@ -9,7 +9,7 @@ O desafio dessa sprint consistiu em usar comandos do shell do Linux para realiza
 [Clique aqui!](./desafio) Para ver todos os resultados e também o documento que descreve toda a jornada de como eles foram atingidos.
 
 ## Evidências
-[Clique aqui](./evidencias) para ver todas as evidências da montagem e execução desse desafio 
+[Clique aqui](./evidencias) para ver todas as evidências da montagem e execução desse desafio.
 
 ### Criando pasta mãe.
 Após conseguir rodar uma distribuição Linux no meu computador realizei o primeiro passo que cosistiam em criar o diretório ```ecommerce```.
