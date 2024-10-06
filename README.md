@@ -1,17 +1,21 @@
-#Ideia de Design: Preto com textos e bordas brancas
+<img src="https://avatars.githubusercontent.com/u/152188605?v=4" width="250">
 
-Pedro Vilela Pereira
-#Caixa separada com foto e informações pessoais principais
-- Nome, Idade, Telefone, Linkedin, Instagram
+# Olá! Me chamo Pedro!
 
-Sobre Mim
-- Localização: Jupi - PE, Brazil
-- Instituição de Ensino: IFPE - Garanhuns
-- Curso: Análise e Desenvolvimento de Sistemas
-- Semetre Atual: 2 Semestre
-- Experiência: zero
-- Conhecimentos Principais: HTML5, CSS3, JavaScript, Python
-- Hobbies: 
+## Sobre Mim.
+Meu nome é **Pedro Vilela Pereira** tenho 18 anos, sou paulista mas atualmente moro em Jupi, PE.
+Estou cursando o segundo perído de Análise e Desenvolvimento de Sistemas no Instituto Federal de Pernambuco - Campus Garanhuns.
 
-Sprints:
-#links das Sprints
+- 👨‍💻**Principais Conhecimentos**: HTML5, CSS3, Python, JavaScript.
+- 📚**Experiência**: Trabalhar na CompassUOL está sendo minha primeira experiência!
+- 🎨**Hobbies**: No assunto hobbies tenho vários, mas os principais são desenhar, produzir músicas e editar vídeos para a internet.
+
+### Conheça um pouco da minha história com a tecnologia.
+Sempre me interessei pela tecnologia, já que me permitia expandir as fronteiras da minha criatividade, mas eu decidi verdadeiramente entrar de cabeça depois de conversar com alguns primos meus que me mostraram como era trabalhar na área.
+
+Fiz o primeiro ano do meu ensino médio técnico em Desenvolvimento de Sistemas e realmente gostei da coisa. Infelizmente, tive de sair do curso já que me mudei do grande centro de São Paulo para uma pequena cidade em Pernambuco chamada Jupi, mas isso não me impediu de continuar estudando.
+
+Consegui finalizar o meu ensino médio e estudei bastante para poder passar na prova do IFPE, e graças a Deus, tive nota o suficiente para entrar! Hoje estou cursando o segundo período da faculdade e me sentido extremamente realizado, já que mesmo com horas olhando para várias linhas de código tentando compreender o que eu mesmo escrevi, resolver problemas é algo que me enche de alegria e fazer isso através da tecnologia tem sido algo incrível!
+
+## Sprints:
+1. [Sprint 1](./Sprint1)
