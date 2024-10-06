@@ -6,16 +6,16 @@ O desafio pedia que utilizássemos uma distribuição **Linux** para realizar to
 
 Optei por utilizar um sistema no próprio Windows que permite rodar uma distribuição Linux, o **WSL (Windows Subsystem for Linux)**, pelo fato de consumir menos da memória do computador em relação a uma máquina virtual.
 
-Utilizando o WSL criei um diretório dentro do meu usuário chamado ```ecommerce```.
+Utilizando o WSL criei o primeiro diretório dentro do meu usuário chamado ```ecommerce```. Ele seria o principal que iria abrigar todo os outros arquivos e diretórios.
 
 ![Criando diretório ecommerce](../evidencias/criando_diretório_ecommerce.png)
 
-E movi o arquivo ```dados_de_vendas.csv```, que contém a nossa base de dados inicial, para dentro do diretório.
+Com o diretório ```ecommerce``` criado, eu movi o arquivo ```dados_de_vendas.csv```, que contém a nossa base de dados inicial, para dentro do dele.
 
 ## 2. Script
-Após a criação do diretório, criei o script ```processamento_de_vendas.sh``` utilizando o **nano**, um editor de texto nativo do Linux.
+Criei então o script ```processamento_de_vendas.sh```, que realizaria todo o processamento da base de dados. Fiz isso utilizando o **nano**, um editor de texto nativo do Linux.
 
-Esse script precisava realizar algumas ações que consistiam em:
+O script em questão precisava realizar algumas ações, que consistiam em:
 - Criar um diretório ```vendas``` com um subdiretório ```backup```.
 - Criar uma cópia do arquivo de dados para esses dois diretórios.
 - Modificar o nome do arquivo ```.csv``` dentro do diretório ```backup``` para ```backup-dados-``` mais a data de execução no formato ```YYYYMMDD```.
