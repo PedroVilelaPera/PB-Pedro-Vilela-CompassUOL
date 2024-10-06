@@ -31,7 +31,7 @@ O script em questão precisava realizar algumas ações, que consistiam em:
 ![Criando script "processamento_de_vendas"](../evidencias/script_processamento.png)
 
 ## 3. Agendando Script
-O desafio nos pede que o script seja executado automaticamente por **quatro dias**, às exatas **15:27**.
+O desafio nos pede que o script seja executado automaticamente por **quatro dias**, às exatas **15h27**.
 Para isso, utilizei o crontab, um sistema de agendamento de tarefas do Linux.
 
 Com o script devidamente criado, agendei a execução pelo usuário **root**(administrador), pois assim o script é executado com os **privilégios de administrador**, evitando qualquer problema de execução que poderia ser gerado pela falta dessas permissões.
@@ -39,7 +39,7 @@ Com o script devidamente criado, agendei a execução pelo usuário **root**(adm
 ![Adicionando tarefa](../evidencias/adicionando_tarefa.png)
 
 ## 4. Execução do Script
-Diariamente, a partir da terça-feira, passei a abrir o terminal todos os dias em torno de 15:25, apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida.
+Diariamente, a partir da terça-feira, passei a abrir o terminal todos os dias em torno de 15h25, apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida.
 
 Com a certeza de que tudo foi corretamente executado, parti para a criação de um novo arquivo ```.csv```, já que outra exigência do desafio era a necessidade de criarmos diferentes bases de dados para cada uma das execuções, emulando assim um banco de dados de vendas de um verdadeiro e-commerce.
 
