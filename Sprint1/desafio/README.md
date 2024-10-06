@@ -58,6 +58,7 @@ Com a certeza de que tudo foi corretamente executado, parti para a criação de 
 
 ## 5. Consolidação dos Relatórios
 Passados os quatro dias de execução, o desafio nos pede que, a partir de um script chamado ```consolidador_de_processamento_de_vendas.sh```, juntemos todos os relatórios gerados no diretório backup em um único arquivo chamado ```relatorio_final```. 
+
 Então criei o script de forma bem simples graças ao **wildcard** ou "*", que me permitiu inserir o relatório no arquivo relatório_final.txt mesmo com datas diferentes.
 
 #### Script consolidador_de_processamento_de_vendas
