@@ -64,3 +64,8 @@ Então criei o script de forma bem simples graças ao **wildcard** ou "*", qu
 
 #### Resultado da Execução:
 ![Juntando os relatórios](../evidencias/consolidando_relatórios.png)
+
+# Conclusão
+Realizar esse desafio foi algo que realmente me tirou da zona de conforto, já que nunca havia tido contato com o Linux, mas com o tempo e as aulas disponíveis, acabei pegando o jeito da coisa. 
+
+Não tive tantas dificuldades em relação a realizar o script, o meu maior “problema” foi a falta de conhecimento mesmo! Pois algumas coisas que não foram ensinadas no curso, tive de procurar a parte na internet ou perguntando a colegas, e com essas informações em mãos, tentar encaixar no script para que realizasse aquilo que queria. Para isso, foram necessários muitas pesquisas e testes, mas fico feliz, pois acredito que consegui realizar o desafio com êxito.
