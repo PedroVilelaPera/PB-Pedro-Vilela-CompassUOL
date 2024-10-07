@@ -17,5 +17,9 @@ Fiz o primeiro ano do meu ensino médio técnico em Desenvolvimento de Sistemas 
 
 Consegui finalizar o meu ensino médio e estudei bastante para poder passar na prova do IFPE, e graças a Deus, tive nota o suficiente para entrar! Hoje estou cursando o segundo período da faculdade e me sentido extremamente realizado, já que mesmo com horas olhando para várias linhas de código tentando compreender o que eu mesmo escrevi, resolver problemas é algo que me enche de alegria e fazer isso através da tecnologia tem sido algo incrível!
 
+### 📷Redes
+- **[💻Linkedin](https://www.linkedin.com/in/pedrovilelapereira/)**
+- **[📷Instagram](https://www.instagram.com/pedrovilelapera/)**
+
 ## Sprints:
-1. [Sprint 1](./Sprint1)
+1. **[Sprint 1](./Sprint1)**
