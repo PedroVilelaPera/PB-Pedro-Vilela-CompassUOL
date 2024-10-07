@@ -38,6 +38,8 @@ Com o script devidamente criado, agendei a execução pelo usuário **root**(adm
 
 ![Adicionando tarefa](../evidencias/adicionando_tarefa.png)
 
+Julguei melhor colocar apenas a data, sem um dia específico para a execução, com o objetivo de facilitar o processo.
+
 ## 4. Execução do Script
 Diariamente, a partir da terça-feira, passei a abrir o terminal todos os dias em torno de 15h25, apenas aguardando o horário de execução para depois conferir se a execução foi bem sucedida.
 
