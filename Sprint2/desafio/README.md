@@ -1,5 +1,5 @@
 # Desafio da Sprint 2
-Nessa segunda sprint, recebemos a tarefa de normalizar um banco de dados de uma concessionária/locadora de veículos no modelo relacional e, após normalizado, criar um modelo dimensional para facilitar a análise dos dados e, ao final, criar seus diagramas.
+Nessa segunda sprint, recebemos a tarefa de, utilizando a linguagem SQL, normalizar um banco de dados de uma concessionária/locadora de veículos no modelo relacional e, após normalizado, criar um modelo dimensional para facilitar a análise dos dados e, ao final, criar seus diagramas.
 
 ## 1. Preparando o espaço.
 Antes de iniciar com a normalização, é importante baixar o banco e um software de gestão de banco de dados para poder manipular esse banco.
