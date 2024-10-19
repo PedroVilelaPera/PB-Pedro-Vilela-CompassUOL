@@ -26,6 +26,10 @@ Como na minha avaliação não consegui observar nenhum caso em que fosse necess
 ### Criando tabela ```Locacões```
 ![Tabela "Locacões"](../evidencias/criando_tb_locacoes.png)
 
+E ao final "dropei" a tabela ```tb_locacao```.
+
+![Tabela "Clientes"](../evidencias/apagando_tabela_tb_locacoes_do_bd_relacional.png)
+
 ## 3. Modelo Dimensional
 Com o modelo relacional feito e normalizado, passei para a criação do seu modelo dimensional.
 
@@ -43,6 +47,10 @@ A única alteração foi a passagem da coluna ```kmcarro``` da dimensão ```carr
 ![Dimensão "dim_carros"](../evidencias/criando_dim_carros.png)
 ### Criando tabela fato ```fato_locacões```
 ![Tabela fato "fato_locacões"](../evidencias/criando_fato_locacoes.png)
+
+No fim "dropei" a tabela ```tb_locacao```.
+
+![Tabela "Clientes"](../evidencias/apagando_tabela_tb_locacoes_do_bd_dimensional.png)
 
 ## 4. Criando os diagramas
 Para gerar os diagramas, utilizei o DBeaver que me permitia realizar esses diagramas de forma fácil.
