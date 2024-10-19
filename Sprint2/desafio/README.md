@@ -53,7 +53,7 @@ No fim "dropei" a tabela ```tb_locacao```.
 ![Tabela "Clientes"](../evidencias/apagando_tabela_tb_locacoes_do_bd_dimensional.png)
 
 ## 4. Criando os diagramas
-Para gerar os diagramas, utilizei o DBeaver que me permitia realizar esses diagramas de forma fácil.
+Para gerar os diagramas, utilizei o [DBeaver](https://dbeaver.io/) que me permitia realizar esses diagramas de forma fácil.
 
 Bastou criar uma nova conexão SQLite e gerar os diagramas. Tive de dar um pouco mais de atenção ao diagrama do modelo dimensional, pois precisava estar no esquema em estrela. 
 Além disso, modifiquei a visualização para as relações ficarem no formato pé de galinha.
