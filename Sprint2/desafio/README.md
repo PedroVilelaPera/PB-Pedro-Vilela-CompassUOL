@@ -9,7 +9,7 @@ Optei por utilizar um site chamado [SQL Online IDE](https://sqliteonline.com/), 
 ## 2. Normalização
 Após subir o banco de dados da nossa concessionária/locadora para o site, eu comecei a aplicar a normalização.
 
-Separei cada um dos dados em suas devidas tabelas e os agrupei por id, com exceção da tabela "Locaçoes", pois como consistia em uma tabela de registros, os dados "duplicados" não seriam um problema. 
+Primeiro defini as chaves primárias e estrangeiras de cada tabela, depois deparei cada um dos dados em suas devidas tabelas e os agrupei por id, com exceção da tabela "Locaçoes". Porque, como consistia em uma tabela de registros, os dados "duplicados" não seriam um problema. 
 
 Desse jeito, as formas normais um e dois já estavam feitas, porque, separando os dados, se removia as chaves compostas e, quando agrupados, os dados duplicados eram eliminados.
 
