@@ -51,10 +51,10 @@ Bastou criar uma nova conexão SQLite e gerar os diagramas. Tive de dar um pouco
 Além disso, modifiquei a visualização para as relações ficarem no formato pé de galinha.
 
 ### Diagrama do Modelo Relacional
-![Diagrama do Modelo Relacional](/arquivos/concessionaria_relacional.png)
+![Diagrama do Modelo Relacional](arquivos/concessionaria_relacional.png)
 
 ### Diagrama do Modelo Dimensional
-![Diagrama do Modelo Dimensional](/arquivos/concessionaria_dimensional.png)
+![Diagrama do Modelo Dimensional](arquivos/concessionaria_dimensional.png)
 
 # Conclusão
 Gostei bastante de utilizar o SQL para realizar as consultas e montar esse desafio. A linguagem é um pouco chata em relação às ordens das ações, mas nada que um pouco de prática não resolva. A realização do desafio em si não foi lá tão difícil, os meus problemas foram mais relacionados ao fato de estar me habituando a esse novo mundo da análise de dados, então em vários momentos acabava me esquecendo de algo crucial na criação de tabelas ou dimensões. Contudo, no geral, não tive grandes problemas com o SQL, na verdade, até gostei de utilizá-lo.
