@@ -9,21 +9,21 @@ Optei por utilizar um site chamado [SQL Online IDE](https://sqliteonline.com/), 
 ## 2. Normalização
 Após subir o banco de dados da nossa concessionária/locadora para o site, eu comecei a aplicar a normalização.
 
-Primeiro defini as chaves primárias e estrangeiras de cada tabela, depois deparei cada um dos dados em suas devidas tabelas e os agrupei por id, com exceção da tabela "Locaçoes". Porque, como consistia em uma tabela de registros, os dados "duplicados" não seriam um problema. 
+Primeiro defini as chaves primárias e estrangeiras de cada tabela, depois deparei cada um dos dados em suas devidas tabelas e os agrupei por id, com exceção da tabela ```Locacoes```. Porque, como consistia em uma tabela de registros, os dados "duplicados" não seriam um problema. 
 
 Desse jeito, as formas normais um e dois já estavam feitas, porque, separando os dados, se removia as chaves compostas e, quando agrupados, os dados duplicados eram eliminados.
 
-Como na minha avaliação não consegui observar nenhum caso em que fosse necessário aplicar a 3FN, a minha normalização estava acabada.
+Como na minha avaliação não consegui observar nenhum caso em que fosse necessário aplicar a ```3FN```, a minha normalização estava acabada.
 
-### Criando tabela "Clientes"
+### Criando tabela ```Clientes```
 ![Tabela "Clientes"](../evidencias/criando_tb_clientes.png)
-### Criando tabela "Vendedores"
+### Criando tabela ```Vendedores```
 ![Tabela "Vendedores"](../evidencias/criando_tb_vendedores.png)
-### Criando tabela "Combustiveis"
+### Criando tabela ```Combustiveis```
 ![Tabela "Combustiveis"](../evidencias/criando_tb_combustiveis.png)
-### Criando tabela "Carros"
+### Criando tabela ```Carros```
 ![Tabela "Carros"](../evidencias/criando_tb_carros.png)
-### Criando tabela "Locacões"
+### Criando tabela ```Locacões```
 ![Tabela "Locacões"](../evidencias/criando_tb_locacoes.png)
 
 ## 3. Modelo Dimensional
@@ -31,17 +31,17 @@ Com o modelo relacional feito e normalizado, passei para a criação do seu mode
 
 A criação do modelo dimensional foi bem simples, já que a estrutura das tabelas seguiu muito semelhante à do modelo relacional.
 
-A única alteração foi a passagem da coluna "kmcarro" da dimensão "carros" para a tabela fato por ser um valor quantitativo.
+A única alteração foi a passagem da coluna ```kmcarro``` da dimensão ```carros``` para a tabela fato por ser um valor quantitativo.
 
-### Criando dimensão "dim_clientes"
+### Criando dimensão ```dim_clientes```
 ![Dimensão "dim_clientes"](../evidencias/criando_dim_clientes.png)
-### Criando dimensão "dim_vendedores"
+### Criando dimensão ```dim_vendedores```
 ![Dimensão "dim_vendedores"](../evidencias/criando_dim_vendedores.png)
-### Criando dimensão "dim_combustiveis"
+### Criando dimensão ```dim_combustiveis```
 ![Dimensão "dim_combustiveis"](../evidencias/criando_dim_combustiveis.png)
-### Criando dimensão "dim_carros"
+### Criando dimensão ```dim_carros```
 ![Dimensão "dim_carros"](../evidencias/criando_dim_carros.png)
-### Criando tabela fato "fato_locacões"
+### Criando tabela fato ```fato_locacões```
 ![Tabela fato "fato_locacões"](../evidencias/criando_fato_locacoes.png)
 
 ## 4. Criando os diagramas
