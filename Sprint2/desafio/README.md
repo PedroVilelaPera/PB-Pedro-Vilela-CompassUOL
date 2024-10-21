@@ -1,5 +1,5 @@
 # Desafio da Sprint 2
-Nessa segunda sprint, recebemos a tarefa de, utilizando a linguagem SQL, normalizar um banco de dados de uma concessionária/locadora de veículos no modelo relacional e, após normalizado, criar um modelo dimensional para facilitar a análise dos dados e, ao final, criar seus diagramas.
+Nessa segunda sprint, recebemos a tarefa de, utilizando a linguagem SQL, normalizar um banco de dados de uma concessionária de veículos no modelo relacional e, após normalizado, criar um modelo dimensional para facilitar a análise dos dados e, ao final, criar seus diagramas.
 
 ## 1. Preparando o espaço.
 Antes de iniciar com a normalização, é importante baixar o banco e um software de gestão de banco de dados para poder manipular esse banco.
@@ -7,15 +7,18 @@ Antes de iniciar com a normalização, é importante baixar o banco e um softwar
 Optei por utilizar um site chamado [SQL Online IDE](https://sqliteonline.com/), que me permitia manipular o banco de dados de forma online, sem presisar baixar nada na minha máquina.
 
 ## 2. Normalização
-Após subir o banco de dados da nossa concessionária/locadora para o site, eu comecei a aplicar a normalização.
+Após subir o banco de dados da nossa concessionária para o site, eu comecei a aplicar a normalização.
 
-O banco estava bem desorganizado pois todas as colunas estavam em uma única tabela o que gerava duas situações:
+O banco estava bem desorganizado e difícil de consultar suas informações, pois todas as colunas estavam em uma única tabela o que gerava duas situações:
+
 1. **Dados duplicados**
 
    Como todos os atributos estavam agrupados em uma tabela, havia uma repetição desnecessária e que poderia ser diminuída.
 3. **Dependência de chaves compostas**
 
    Os atributos dependiam de mais de uma chave porque todas elas estavam na mesma tabela.
+
+![Tabela "Clientes"](../evidencias/tb_locacao.png)
 
 Para resolver esses problemas, comecei criando cada uma das tabelas selecionando os atributos que tinham relações entre si, removendo dessa maneira as dependências de chaves compostas. 
 
