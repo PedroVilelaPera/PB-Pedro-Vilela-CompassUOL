@@ -28,6 +28,8 @@ Isso se deve porque, como consistia em uma tabela de registros, os dados "duplic
 
 Como na minha avaliação não consegui observar nenhum caso em que fosse necessário aplicar a ```3FN```, a minha normalização estava acabada.
 
+Vale a pena citar que na tabela carros, como a quilometragem era registrada a cada locação, eu utilizei a função ```max``` do SQL para armazenar apenas a quilometragem mais alta, que normalmente é a maior.
+
 ### Criando tabela ```Clientes```
 ![Tabela "Clientes"](../evidencias/criando_tb_clientes.png)
 ### Criando tabela ```Vendedores```
