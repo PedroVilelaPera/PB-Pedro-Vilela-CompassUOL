@@ -9,9 +9,19 @@ Optei por utilizar um site chamado [SQL Online IDE](https://sqliteonline.com/), 
 ## 2. Normalização
 Após subir o banco de dados da nossa concessionária/locadora para o site, eu comecei a aplicar a normalização.
 
-Primeiro defini as chaves primárias e estrangeiras de cada tabela, depois deparei cada um dos dados em suas devidas tabelas e os agrupei por id, com exceção da tabela ```Locacoes```. Porque, como consistia em uma tabela de registros, os dados "duplicados" não seriam um problema. 
+O banco estava bem desorganizado pois todas as colunas estavam em uma única tabela o que gerava duas situações:
+1. **Dados duplicados**
 
-Desse jeito, as formas normais um e dois já estavam feitas, porque, separando os dados, se removia as chaves compostas e, quando agrupados, os dados duplicados eram eliminados.
+   Como todos os atributos estavam agrupados em uma tabela, havia uma repetição desnecessária e que poderia ser diminuída.
+3. **Dependência de chaves compostas**
+
+   Os atributos dependiam de mais de uma chave porque todas elas estavam na mesma tabela.
+
+Para resolver esses problemas, comecei criando cada uma das tabelas selecionando os atributos que tinham relações entre si, removendo dessa maneira as dependências de chaves compostas. 
+
+Defini suas chaves primárias e estrangeiras quando havia necessidade (que foi o caso das tabelas ```Locacoes``` e ```Carros```) e as utilizei como regra de agrupamento para assim remover as duplicadas, com exceção da tabela ```Locacoes```. 
+
+Isso se deve porque, como consistia em uma tabela de registros, os dados "duplicados" não seriam um problema.
 
 Como na minha avaliação não consegui observar nenhum caso em que fosse necessário aplicar a ```3FN```, a minha normalização estava acabada.
 
