@@ -34,7 +34,7 @@ No desafio dessa sprint tivemos de utilizar a linguagem SQL para normalizar um b
 [Clique aqui](evidencias) para ver todas as evidências da montagem e execução desse desafio.
 
 ### Normalizando banco de dados ```concessionaria```
-Criei cada uma das tabelas, separando os dados da tabela original e os agrpando de acordo com seus ```IDs```.
+Criei cada uma das tabelas, separando os dados da tabela original e os agrupando de acordo com seus ```atributos chaves```.
 
 ![Tabela "Clientes"](evidencias/criando_tb_clientes.png)
 ![Tabela "Vendedores"](evidencias/criando_tb_vendedores.png)
