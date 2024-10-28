@@ -23,3 +23,4 @@ Consegui finalizar o meu ensino médio e estudei bastante para poder passar na p
 
 ## Sprints:
 1. **[Sprint 1](./Sprint1)**
+2. **[Sprint 2](./Sprint2)**
