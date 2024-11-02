@@ -1,10 +1,12 @@
+#Importando funções criadas por mim
+#A função "criar_matriz_atores", lê o arquivo "actors.csv" e o transforma em uma matriz.
+from funcoes import criar_matriz_atores
+#E a função "escrever_arquivo" escreve o que eu desejar em um arquivo específico
+from funcoes import escrever_arquivo
+#Fiz isso pois vou usar essas funções em todos as etapas, e assim me poupa tempo.
+
 #Lê o arquivo "actors.csv" e o transforma em uma matriz.
-with open('Sprint3/exercicios/exercicios_2/actors.csv', 'r') as arquivo:
-    atores = []
-    for linha in arquivo:
-        linha = linha.strip()
-        valores = linha.split(',')
-        atores.append(valores)
+atores = criar_matriz_atores()
 
 #Cria um dicionário chamado "num_de_filmes" com o nome dos atores e a quantidade de filmes que ele participou.
 num_de_filmes = {}
@@ -20,5 +22,4 @@ for numlinha, linha in enumerate(atores):
 ator_max_filmes = max(num_de_filmes, key=num_de_filmes.get)
 
 #Escreve no arquivo "etapa-1.txt" um texto com as informações necessárias
-with open('Sprint3/exercicios/exercicios_2/etapa-1.txt', 'w', encoding='utf-8') as etapa_1:    
-    etapa_1.write(f'O ator com mais filmes é o {ator_max_filmes}, com {num_de_filmes[ator_max_filmes]} filmes.')
+escrever_arquivo('Sprint3/exercicios/exercicios_2/etapa-1.txt','etapa_1',f'O ator com mais filmes é o {ator_max_filmes}, com {num_de_filmes[ator_max_filmes]} filmes.')
