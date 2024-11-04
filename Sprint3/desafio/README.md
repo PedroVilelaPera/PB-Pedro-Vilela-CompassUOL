@@ -4,7 +4,7 @@ Na Sprint 3 tivemos de realizar uma série de **cálculos, consultas e gráficos
 ## 1. Preparando o espaço.
 A primeira coisa a se fazer era baixar a nossa base de dados ```googleplaystore.csv``` e as bibliotecas **Pandas**, para facilitar na hora de fazer cálculos e consultas, e a **Matplotlib** que permite criar diversos gráficos a partir desses dados recolhidos.
 
-![Preparando o espaço](../evidencias/desafio_importando_bibliotecas_e_lendo_dataframe.png)
+![Preparando o espaço](../evidencias/desafio-importando_bibliotecas_e_lendo_dataframe.png)
 
 ## Demandas.
 
