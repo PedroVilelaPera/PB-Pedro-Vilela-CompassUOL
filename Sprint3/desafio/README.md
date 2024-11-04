@@ -12,7 +12,7 @@ Importei dentro do nosso notebook do Jupyter as bibliotecas e o arquivo .csv.
 
 ### Primeira demanda: Gráfico de barras dos Top 5 apps por número de instalação.
 A primeira coisa que tivemos de realizar foi um **gráfico com os top 10 aplicativos com mais instalações** do dataframe.
-Para isso, criei um script que **separa as colunas ```App``` e ```Installs```** que **armazenam os nomes dos aplicativos e a quantindade de instalações respectivamente**. Com essas colunas em mãos, fiz um filtro que **retira uma coluna defeituosa** que apresenta seu valor no lugar errado e atrapalha o processamento dos dados, ao fim **ordeno a lista em ordem decrescente e transformo seus valores para inteiros** antes de gerar o gráfico de barras.
+Para isso, criei um script que **separa as colunas ```App``` e ```Installs```** que **armazenam os nomes dos aplicativos e a quantindade de instalações respectivamente**. Com essas colunas em mãos, fiz um filtro que **retira uma coluna defeituosa** que apresenta seu valor no lugar errado e atrapalha o processamento dos dados, ao fim **transformo seus valores para inteiros, ordeno a lista em ordem decrescente e retiro os aplicativos duplicados** antes de gerar o gráfico de barras.
 
 ![Script do gráfico de barras dos Top 5 apps por número de instalação](../evidencias/desafio-demanda1.png)
 
