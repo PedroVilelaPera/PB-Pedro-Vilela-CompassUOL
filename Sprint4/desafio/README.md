@@ -17,23 +17,31 @@ Depois contrui a imagem com o comando docker build -t carguru (a flag -t serve p
 
 Depois rodei a imagem dentro de um contêiner com o comando docker run --name carguru carguru (a flag --name para dar nome ao contêiner) e recebi o resultado, que no caso, era uma mensagem aleatória que me diria qual carro eu vou dirigir. 
 
-![Rodando Contêiner do script carguru](../evidencias/desafio/rodando_container_carguru.png)
+![Rodando contêiner do script carguru](../evidencias/desafio/rodando_container_carguru.png)
 
 ## Etapa 2 
 A segunda etapa era uma pergunta sobre se era possível reutilizar contêineres e a resposta para isso é sim! É possível reiniciar contêineres usando o comando docker start <id do contêiner>.
 
-![Rodando Contêiner do script carguru](../evidencias/desafio/reiniciando_container_mascarar_dados.png)
-
-![Rodando Contêiner do script carguru](../evidencias/desafio/reiniciando_container_mascarar_dados.png)
+![Reinciando container](../evidencias/desafio/reiniciando_container.png)
 
 ## Etapa 3
 A terceira e última etapa tinha as mesmas demandas de criar uma imagem e um contêiner de um script, mas o script dessa vez precisaria ser feito do zero, no caso, era um script de codificação de mensagens no formato hash SHA1.
 
 O meu código inicia com um simples menu que te permite escolher entre codificar uma mensagem e sair do script. Caso sua escolha seja codificar uma mensagem, ele te pedirá a mensagem, codificará, imprimirá a mensagem codificada na tela e voltará para o menu. 
 
+![Script de codificação](../evidencias/desafio/script_hash.png)
 
 Com o código feito e rodando, simplesmente fiz a Dockerfile, que é idêntica à da primeira etapa, mudando apenas o nome do script no CMD.
 Após ter a imagem feita, a construí com o nome de mascarar-dados (uma exigência do desafio) e rodei o contêiner no modo interativo para poder escrever as mensagens.
+
+### Criando imagem do script codificador
+![Criando imagem do script codificador](../evidencias/desafio/criando_imagem_hash.png)
+
+### Contruindo imagem do script codificador
+![Contruindo imagem do script codificador](../evidencias/desafio/construindo_imagem_hash.png)
+
+### Rodando contêiner do script codificador
+![Rodando contêiner do script codificador](../evidencias/desafio/rodando_container_hash.png)
 
 ## Conclusão
 O desafio desse sprint foi um dos mais tranquilos até o momento, tive que apanhar um pouco para poder aprender como se usava os comandos devidamente, mas após aprendido tudo fluiu rápido. A única parte ruim desse desafio foi o programa do Docker desktop ser um pouco pesado, o que atrapalhava um pouco, mas tirando isso, não tive mais nenhum problema e acredito ter finalizado todo o desafio com êxito.
