@@ -9,18 +9,20 @@ A primeira etapa nos pedia que criássemos a imagem e o contêiner do script car
 
 Criei um Dockerfile que utiliza a imagem base do Python 3 slim, por ser mais leve, defini o diretório de trabalho como /app e copiei o script para dentro dela, por fim coloquei os comandos que seriam digitados quando a imagem for executada para que o script funcionasse.
 
-![Contruindo imagem](../evidencias/desafio/criando_imagem_carguru.png)
+![Criando imagem do script carguru](../evidencias/desafio/criando_imagem_carguru.png)
 
 Depois contrui a imagem com o comando docker build -t carguru (a flag -t serve para que eu possa nomear a imagem).
 
-![Contruindo imagem](../evidencias/desafio/construindo_imagem_carguru.png)
+![Contruindo imagem do script carguru](../evidencias/desafio/construindo_imagem_carguru.png)
 
 Depois rodei a imagem dentro de um contêiner com o comando docker run --name carguru carguru (a flag --name para dar nome ao contêiner) e recebi o resultado, que no caso, era uma mensagem aleatória que me diria qual carro eu vou dirigir. 
 
-![Contruindo imagem](../evidencias/desafio/rodando_container_carguru.png)
+![Rodando Contêiner do script carguru](../evidencias/desafio/rodando_container_carguru.png)
 
 ## Etapa 2 
 A segunda etapa era uma pergunta sobre se era possível reutilizar contêineres e a resposta para isso é sim! É possível reiniciar contêineres usando o comando docker start <id do contêiner>.
+
+![Rodando Contêiner do script carguru](../evidencias/desafio/rodando_container_carguru.png)
 
 ## Etapa 3
 A terceira e última etapa tinha as mesmas demandas de criar uma imagem e um contêiner de um script, mas o script dessa vez precisaria ser feito do zero, no caso, era um script de codificação de mensagens no formato hash SHA1.
