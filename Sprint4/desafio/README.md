@@ -22,7 +22,9 @@ Depois rodei a imagem dentro de um contêiner com o comando docker run --name ca
 ## Etapa 2 
 A segunda etapa era uma pergunta sobre se era possível reutilizar contêineres e a resposta para isso é sim! É possível reiniciar contêineres usando o comando docker start <id do contêiner>.
 
-![Rodando Contêiner do script carguru](../evidencias/desafio/rodando_container_carguru.png)
+![Rodando Contêiner do script carguru](../evidencias/desafio/reiniciando_container_mascarar_dados.png)
+
+![Rodando Contêiner do script carguru](../evidencias/desafio/reiniciando_container_mascarar_dados.png)
 
 ## Etapa 3
 A terceira e última etapa tinha as mesmas demandas de criar uma imagem e um contêiner de um script, mas o script dessa vez precisaria ser feito do zero, no caso, era um script de codificação de mensagens no formato hash SHA1.
