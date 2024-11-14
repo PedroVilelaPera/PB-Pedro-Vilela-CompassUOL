@@ -8,6 +8,7 @@
 - [Exercicio 04](exercicios/ex04.py)
 - [Exercicio 05](exercicios/ex05.py)
 - [Exercicio 06](exercicios/ex06.py)
+- [Exercicio 07](exercicios/ex07.py)
 
 
 ## Desafio
@@ -23,28 +24,31 @@ No desafio dessa sprint tivemos de utilizar do Docker para criar imagens e conta
 #### Etapa 1: Criar imagem e container de script entregue.
 
 ##### Criando imagem do script carguru
-![Criando imagem do script carguru](desafio/criando_imagem_carguru.png)
+![Criando imagem do script carguru](evidencias/desafio/criando_imagem_carguru.png)
 
 ##### Contruindo imagem do script carguru
-![Contruindo imagem do script carguru](desafio/construindo_imagem_carguru.png)
+![Contruindo imagem do script carguru](evidencias/desafio/construindo_imagem_carguru.png)
 
 ##### Rodando contêiner do script carguru
-![Rodando contêiner do script carguru](desafio/rodando_container_carguru.png)
+![Rodando contêiner do script carguru](evidencias/desafio/rodando_container_carguru.png)
 
 #### Etapa 2: Contêiners podem ser reutilizados? A resposta é sim!
 
-![Reinciando container](desafio/reiniciando_container.png)
+![Reinciando container](evidencias/desafio/reiniciando_container.png)
 
-#### 2. Segunda demanda: Gráfico de pizza mostrando a frequência de categorias dos apps.
+#### Etapa 3: Criando imagem, contêiner e script.
+
+##### Script codificador
+![Script de codificação](evidencias/desafio/script_hash.png)
 
 ##### Criando imagem do script codificador
-![Criando imagem do script codificador](desafio/criando_imagem_hash.png)
+![Criando imagem do script codificador](evidencias/desafio/criando_imagem_hash.png)
 
 ##### Contruindo imagem do script codificador
-![Contruindo imagem do script codificador](desafio/construindo_imagem_hash.png)
+![Contruindo imagem do script codificador](evidencias/desafio/construindo_imagem_hash.png)
 
 ##### Rodando contêiner do script codificador
-![Rodando contêiner do script codificador](desafio/rodando_container_hash.png)
+![Rodando contêiner do script codificador](evidencias/desafio/rodando_container_hash.png)
 
 
 ## Certificados
