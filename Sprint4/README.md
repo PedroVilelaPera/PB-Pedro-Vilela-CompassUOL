@@ -53,3 +53,5 @@ No desafio dessa sprint tivemos de utilizar do Docker para criar imagens e conta
 
 ## Certificados
 
+- [AWS Partner Accreditation (Technical) (Portugues)](certificados/AWS_Partner!_Accreditation_(Technical).pdf)
+- [AWS Technical Essentials](certificados/AWS_Technical_Essentials.pdf)
