@@ -40,7 +40,5 @@ No desafio dessa sprint tivemos de criar um bucket no Amazon S3 que iria receber
 
 ## Certificados
 
-- [Badge de conclusão do AWS CloudQuest)](certificados/AWS_CloudQuest-Badge.png)
+- [Clique aqui para ver a Badge de conclusão do AWS CloudQuest)]([certificados/AWS_CloudQuest-Badge.png](https://www.credly.com/badges/4c59a1bf-f310-4c32-881f-d208b331ad86/public_url))
 - [Certificado de conclusão do curso de preparação para o exame AWS Certificate Cloud Pratictioner](certificados/Curso_padrao_de_preparacao_para_exame_AWS_Certificate_Cloud_Pratictioner_-_Certificate.pdf)
-- ![Clique aqui para ver a Badge de conclusão do AWS CloudQuest)]([certificados/AWS_CloudQuest-Badge.png](https://www.credly.com/badges/4c59a1bf-f310-4c32-881f-d208b331ad86/public_url))
-
