@@ -1,7 +1,7 @@
 # SPRINT 6
 
 ## Exercícios
-[Clique aqui](evidencias/exercicio) para ver todas as evidências da montagem e execução desse exercicio.
+[Clique aqui](evidencias/exercicios) para ver todas as evidências da montagem e execução desse exercicio.
 
 ## Desafio
 No desafio desta sprint, foi necessário desenvolver um script em Python utilizando a biblioteca boto3, que possibilitasse a criação de um bucket no Amazon S3 e o envio de dois arquivos .csv para ele. O script precisava ser executado em um container Docker, e os arquivos deveriam ser obtidos a partir de um volume Docker.
