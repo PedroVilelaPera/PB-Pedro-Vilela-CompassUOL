@@ -47,13 +47,13 @@ No desafio desta sprint, foi necessário desenvolver um script em Python utiliza
 
 ## Certificados
 
--[AWS Glue Getting Started](certificados/AWS_Glue_Getting_Started.pdf)
--[Amazon EMR Getting Started](certificados/Amazon_EMR_Getting_Started.pdf)
--[AWS Glue Getting Started](certificados/Amazon_QuickSight_-_Getting_Started.pdf)
--[Amazon QuickSight - Getting Started](certificados/Best_Practices_for_Data_Warehousing_with_Amazon_Redshift_(Portuguese).pdf)
--[Fundamentals of Analytics on AWS – Part 1 (Portuguese)](certificados/Fundamentals_of_Analytics_on_AWS_–_Part_1_(Portuguese).pdf)
--[Fundamentals of Analytics on AWS – Part 2 (Portuguese)](certificados/Fundamentals_of_Analytics_on_AWS_–_Part_2_(Portuguese).pdf)
--[Getting Started with Amazon Redshift (Portuguese)](certificados/Getting_Started_with_Amazon_Redshift_(Portuguese).pdf)
--[Introduction to Amazon Athena (Portuguese)](certificados/Introduction_to_Amazon_Athena_(Portuguese).pdf)
--[Serverless Analytics (Portuguese)](certificados/Serverless_Analytics_(Portuguese).pdf)
+- [AWS Glue Getting Started](certificados/AWS_Glue_Getting_Started.pdf)
+- [Amazon EMR Getting Started](certificados/Amazon_EMR_Getting_Started.pdf)
+- [AWS Glue Getting Started](certificados/Amazon_QuickSight_-_Getting_Started.pdf)
+- [Amazon QuickSight - Getting Started](certificados/Best_Practices_for_Data_Warehousing_with_Amazon_Redshift_(Portuguese).pdf)
+- [Fundamentals of Analytics on AWS – Part 1 (Portuguese)](certificados/Fundamentals_of_Analytics_on_AWS_–_Part_1_(Portuguese).pdf)
+- [Fundamentals of Analytics on AWS – Part 2 (Portuguese)](certificados/Fundamentals_of_Analytics_on_AWS_–_Part_2_(Portuguese).pdf)
+- [Getting Started with Amazon Redshift (Portuguese)](certificados/Getting_Started_with_Amazon_Redshift_(Portuguese).pdf)
+- [Introduction to Amazon Athena (Portuguese)](certificados/Introduction_to_Amazon_Athena_(Portuguese).pdf)
+- [Serverless Analytics (Portuguese)](certificados/Serverless_Analytics_(Portuguese).pdf)
 
