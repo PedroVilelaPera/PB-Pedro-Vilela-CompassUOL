@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     def buscar_filmes(genero_id, limite=10):
         filmes = []
         page = 1
-        while len(filmes) < limite:  # Continua até ter o número desejado de filmes
+        while len(filmes) < limite:  
             params = {
                 'api_key': chave_api,
                 'with_genres': genero_id,
@@ -25,16 +25,15 @@ def lambda_handler(event, context):
             data = response.json()
             
             if not data['results']:
-                break  # Sai do loop se não houver mais resultados
+                break  
             
             filmes.extend(data['results'])
-            page += 1  # Avança para a próxima página
-            
-            # Interrompe se já tiver coletado o número desejado de filmes
+            page += 1 
+
             if len(filmes) >= limite:
                 break
         
-        return filmes[:limite]  # Retorna apenas os primeiros 'limite' filmes
+        return filmes[:limite] 
 
 
     # Buscando filmes de drama
