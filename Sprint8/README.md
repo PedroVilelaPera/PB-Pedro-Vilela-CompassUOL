@@ -25,7 +25,7 @@ Nesta sprint 8, fomos responsáveis por criar dois jobs no AWS Glue para transfo
 ![Alterando Number of Workers e Job Timeout](evidencias/desafio/csv/criando_job_csv_4.png)
 
 ### Parâmetros do job
-![Parâmetros do Job]evidencias/desafio/csv/job_parameters.png)
+![Parâmetros do Job](evidencias/desafio/csv/job_parameters.png)
 
 ### Script para transformar CSV para Parquet - Parte 1
 ![Script para transformar CSV para Parquet - Parte 1](evidencias/desafio/csv/script_part1.png)
@@ -53,3 +53,6 @@ Nesta sprint 8, fomos responsáveis por criar dois jobs no AWS Glue para transfo
 
 ### Tabelas criadas pelo Crawler
 ![Tabelas criadas pelo crawler](evidencias/desafio/crawler/tabelas_criadas.png)
+
+## Certificados
+#### Não tivemos certificados para essa Sprint.
