@@ -4,7 +4,7 @@
 
 - [Exercício de Geração e Massa de Dados](exercicios/geracao_e_massa_de_dados)
 - [Exercício com Spark](exercicios/apache_spark)
-- [Exercício com a API do TMDB](exercicios/tmbd)
+- [Exercício com TMDB](exercicios/tmdb)
 
 [Clique aqui](evidencias/exercicios) para ver todas as evidências da montagem e execução desse exercicio.
 
