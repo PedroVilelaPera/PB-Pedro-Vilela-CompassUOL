@@ -20,6 +20,7 @@ A primeira coisa a ser feita eram os dois jobs. Ambos realizariam a transformaç
 
 Além dessas, tive de aplicar uma política IAM para que os dois jobs pudessem inserir objetos no Amazon S3 e adicionar os parâmetros do Job de caminho da fonte (Input Path) e caminho de destino (Target Path).
 
+### Parâmetros do job
 ![Parâmetros do Job](../evidencias/desafio/csv/job_parameters.png)
 
 Com tudo isso devidamente configurado, eu parti para os scripts.
