@@ -5,7 +5,7 @@ Na sprint 9, nos foi requisitado que **criássemos uma modelagem dimensional**, 
 A primeira coisa a ser feita era a **modelagem dimensional**, para isso utilizei a ferramenta **[draw.io](https://app.diagrams.net/)**, uma ferramenta online para a criação de diagramas e fluxogramas. 
 Conforme as perguntas da minha análise, fui estruturando o que eu gostaria que tivesse na tabela fato, e por uma questão de normalização, **coloquei os gêneros e as plataformas de streaming** onde aqueles filmes estão disponíveis em dimensões diferentes. Isso por conta de que um filme pode ter mais de um gênero, assim como pode estar associado a mais de um streaming.
 
-![Modelo Dimensional](../evidencias/Diagrama.png)
+![Modelo Dimensional](../evidencias/diagrama.png)
 
 ## Etapa 2
 
