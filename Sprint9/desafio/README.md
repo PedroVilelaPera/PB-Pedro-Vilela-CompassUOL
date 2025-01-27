@@ -8,6 +8,8 @@ Conforme as perguntas da minha análise, fui estruturando o que eu gostaria que 
 ![Modelo Dimensional](../evidencias/Diagrama.png)
 
 ## Etapa 2
+
+### Configurando o Job
 Com a modelagem feita, comecei a fazer o **job no AWS Glue** que nomeei como ```modelagem-dataset```, mas antes realizei algumas configurações no job alterando os seguintes parâmetros:
 - Worker Type: ```G 1x```
 - Number of Workers: ```2```
@@ -15,6 +17,8 @@ Com a modelagem feita, comecei a fazer o **job no AWS Glue** que nomeei como ```
 
 ![Configurando Job - Parte 1](../evidencias/job_configuracao1.png)
 ![Configurando Job - Parte 2](../evidencias/job_configuracao2.png)
+
+### Fazendo o script
 
 Estando o job devidamente configurado, passei para a criação do script que funciona da seguinte maneira:
 
