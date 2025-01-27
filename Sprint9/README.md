@@ -11,7 +11,7 @@ Na sprint 9, tivemos que desenvolver uma modelagem dimensional e criar um job pa
 ## Evidências
 
 ### Modelo Dimensional
-![Modelo Dimensional](evidencias/diagrama.png)
+![Modelo Dimensional](evidencias/Diagrama.png)
 ### Configurando Job
 ![Configurando Job - Parte 1](evidencias/job_configuracao1.png)
 ![Configurando Job - Parte 2](evidencias/job_configuracao2.png)
