@@ -1,0 +1,8 @@
+{
+    "api_key": "chave_api",
+    "bucket_name": "nome_bucket",
+    "file_name": "caminho_do_arquivo",
+    "lista_ids_filmes": [
+        "ids"
+    ]
+}
