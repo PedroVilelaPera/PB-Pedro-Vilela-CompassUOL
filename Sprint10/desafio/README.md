@@ -84,5 +84,8 @@ Cada um dos gráficos possui **características dos filmes que possam ter sido i
 
 Depois dos gráficos criados e trazendo as informações corretas, **organizei e estilizei o dashboard**. 
 
+### Dashboard
+**Para ter acesso ao dashboard [clique aqui.](dashboard.pdf)**
+
 # Conclusão
 Esse desafio não foi tão complexo, principalmente pelo motivo de que trabalhar com o QuickSight é bem intuitivo! A plataforma é fácil de usar e permite resultados bem satisfatórios. O problema maior foram meus dados que precisaram de uma certa alteração para que fossem trazidos corretamente para a ferramenta e gerassem os resultados de que precisava. Tirando isso, como já pontuado, a realização do desafio se desenvolveu com bastante tranquilidade.
