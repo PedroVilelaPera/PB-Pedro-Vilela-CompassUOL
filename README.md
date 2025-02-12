@@ -22,13 +22,13 @@ Consegui finalizar o meu ensino médio e estudei bastante para poder passar na p
 - **[📷Instagram](https://www.instagram.com/pedrovilelapera/)**
 
 ## Sprints:
-1. **[Sprint 1](./Sprint_1)**
-2. **[Sprint 2](./Sprint_2)**
-3. **[Sprint 3](./Sprint_3)**
-4. **[Sprint 4](./Sprint_4)**
-5. **[Sprint 5](./Sprint_5)**
-6. **[Sprint 6](./Sprint_6)**
-7. **[Sprint 7](./Sprint_7)**
-8. **[Sprint 8](./Sprint_8)**
-9. **[Sprint 8](./Sprint_9)**
-10. **[Sprint 8](./Sprint_10)**
+1. **[Sprint 1](./Sprint1)**
+2. **[Sprint 2](./Sprint2)**
+3. **[Sprint 3](./Sprint3)**
+4. **[Sprint 4](./Sprint4)**
+5. **[Sprint 5](./Sprint5)**
+6. **[Sprint 6](./Sprint6)**
+7. **[Sprint 7](./Sprint7)**
+8. **[Sprint 8](./Sprint8)**
+9. **[Sprint 9](./Sprint9)**
+10. **[Sprint 10](./Sprint10)**
